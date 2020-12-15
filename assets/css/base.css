@@ -1,0 +1,51 @@
+/* khai bao bien mau  */
+:root{
+    --mall-color: #d1371e;
+    --primary-color:#ee4d2d;
+    --text-color:#000000CC;
+    --border-color:#dbdbdb;
+    --item-color: #3b4046;
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        transition: ease-in;
+    }
+}
+@keyframes slide{
+    from{
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+        
+    }
+}
+/* reset css */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: Helvetica;
+}
+img{
+    display:block; 
+    width: 100%;
+    
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
